@@ -1,0 +1,24 @@
+# program aliases
+alias minecraft='java -d64 -jar /Applications/Minecraft.app/Contents/Resources/Java/Bootstrap.jar'
+alias preview='open /Applications/Preview.app'
+alias pdflatex='/Library/TeX/texbin/pdflatex'
+alias latex='/Library/TeX/texbin/latex'
+
+# ls
+alias l='ls -GFa'
+alias l1='ls -GF1a'
+
+# potassco stuff
+alias gringo='/Applications/potassco/gringo-3.0.5-macos-10.8.3/gringo'
+alias iclingo='/Applications/potassco/iclingo-3.0.5-macos-10.8.3/iclingo'
+alias clasp='/Applications/potassco/clasp-2.1.0/clasp-2.1.0-st-x86_64-macosx'
+
+# PS1
+PS1='\w $ '
+
+# exports
+export PATH=$PATH:'/Applications/Xcode.app'
+export PATH=$PATH:'/usr/local/bin'
+
+# git completions
+source ~/.git-completion.bash
