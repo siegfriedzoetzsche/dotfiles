@@ -5,8 +5,10 @@ alias pdflatex='/Library/TeX/texbin/pdflatex'
 alias latex='/Library/TeX/texbin/latex'
 
 # ls
-alias l='ls -GFa'
-alias l1='ls -GF1a'
+alias l='ls -GF'
+alias l1='ls -GF1'
+alias a='ls -GFa'
+alias a1='ls -GF1a'
 
 # potassco stuff
 alias gringo='/Applications/potassco/gringo-3.0.5-macos-10.8.3/gringo'
